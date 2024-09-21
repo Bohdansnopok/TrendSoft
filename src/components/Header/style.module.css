@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    align-items: center;
+    padding: 32px 0;
+}
+
+.navs {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color .5s;
+}
+
+.nav ~ .nav {
+    margin-left: 50px;
+}
+
+.nav:hover {
+    color: orangered;
+}
