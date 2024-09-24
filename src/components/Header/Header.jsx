@@ -4,7 +4,7 @@ import logo from '../../images/logo.jpg';  // Путь должен быть о�
 
 const Header = () => {
     return (
-        <header className={styles.header}>
+        <header className={`${styles.header} ${styles.container}`}>
             <img src={logo} alt="Logo"/>
             <div className={styles.navs}>
                 <a href="#" className={styles.nav}>

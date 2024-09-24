@@ -1,10 +1,13 @@
 import styles from './style.module.css';
 import Header from "../../components/Header/Header";
+import MainBlock from "../../components/MainBlock/MainBlock";
 
 const Main = () => {
     return (
-        <div className={styles.container}>
+        <div>
             <Header/>
+
+            <MainBlock/>
         </div>
     )
 };

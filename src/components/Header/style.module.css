@@ -4,6 +4,13 @@ header {
     padding: 32px 0;
 }
 
+.container {
+    max-width: 1164px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .navs {
     display: flex;
     align-items: center;
