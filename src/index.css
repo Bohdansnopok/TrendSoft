@@ -39,3 +39,21 @@ h2 {
     font-size: 40px;
     font-weight: bold;
 }
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.redButton {
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 28px;
+    font-weight: bold;
+}
