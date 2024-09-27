@@ -1,0 +1,39 @@
+.container {
+    max-width: 1164px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container h2 span {
+    color: #F83718;
+}
+
+.subtitle {
+    text-align: center;
+    color: gray;
+    margin-top: 30px;
+}
+
+.counters {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.countNum {
+    color: #F83718;
+    font-size: 40px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.counter__subtitle {
+    font-size: 26px;
+}
