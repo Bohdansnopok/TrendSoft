@@ -8,6 +8,7 @@ import PreproductionModule from "../../components/ModulesBlocks/PreproductionMod
 import CastingCounter from "../../components/СastingCounter/CastingCounter";
 import Doctoolz from "../../components/Doctoolz/Doctoolz";
 import CustomDevelopment from "../../components/CustomDevelopment/CustomDevelopment";
+import Footer from "../../components/Footer/Footer";
 
 
 const Main = () => {
@@ -30,6 +31,8 @@ const Main = () => {
             <Doctoolz/>
 
             <CustomDevelopment/>
+
+            <Footer/>
         </div>
     )
 };

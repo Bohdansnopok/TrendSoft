@@ -1,0 +1,67 @@
+
+.container {
+    max-width: 1164px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 180px;
+    display: flex;
+}
+
+.leftContent,
+.rightContent {
+    width: 50%;
+}
+
+.leftContent {
+    color: white;
+    background-color: #F83718;
+    padding: 45px 55px;
+}
+
+.rightContent {
+    color: black;
+    padding: 45px 55px;
+}
+
+.email {
+    margin-top: 30px;
+}
+
+.email a {
+    display: block;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+.email a:hover {
+    color: #01AFEB;
+}
+
+.number {
+    display: block;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    transition: all .5s;
+}
+
+.number:hover {
+    color: #F83718;
+}
+
+.adress {
+    font-size: 20px;
+    color: black;
+    transition: all .5s;
+}
+
+.adress:hover {
+    font-size: 20px;
+    color: #F83718;
+}
