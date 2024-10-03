@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './style.module.css'
-import logo from '../../images/logo.jpg';  // Путь должен быть относительно файла Header.jsx
+import logo from '../../images/logo.jpg';  // Путь должен быть относительно файла Doctoolz.jsx
 
 const Header = () => {
     return (

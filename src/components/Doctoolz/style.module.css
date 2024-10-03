@@ -1,0 +1,82 @@
+.wrapper {
+    position: relative;
+}
+
+.container {
+    max-width: 1164px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 130px;
+    position: relative;
+}
+
+.doctoolz__title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.content {
+    position: absolute;
+    background-color: #e4ffed;
+    border: 4px solid #f9f9f9;
+    padding: 45px 85px;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* Додаємо position: relative, щоб z-index працював */
+    z-index: 2; /* Встановлюємо вищий z-index */
+}
+
+.redButton {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 28px;
+    font-weight: bold;
+    background-color: #F83718;
+    text-decoration: none;
+    transition: .5s;
+    margin-top: 30px;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.redButton:hover {
+    background-color: darkred;
+}
+
+.decoration {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #01AFEB;
+    height: 635px;
+    width: 100%;
+    z-index: 1; /* Встановлюємо нижчий z-index */
+    padding-bottom: 80px;
+    margin-bottom: 0;
+}
+
+.decContent {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.decContent .item ~ .item {
+    margin-left: 30px;
+}
+
+.item__title {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}

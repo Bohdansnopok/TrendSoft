@@ -1,0 +1,65 @@
+.container {
+    max-width: 1164px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container h2 span {
+    color: #F83718;
+}
+
+.subtitle {
+    text-align: center;
+    color: #1B1925;
+    margin-top: 30px;
+}
+
+.counters {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.countNum {
+    color: #F83718;
+    font-size: 40px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.counter__subtitle {
+    font-size: 26px;
+}
+
+.redButton {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 28px;
+    font-weight: bold;
+    background-color: #F83718;
+    text-decoration: none;
+    transition: .5s;
+    margin-top: 30px;
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.redButton:hover {
+    background-color: darkred;
+}
+
+.castingPhoto {
+    margin-top: 65px;
+}

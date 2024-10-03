@@ -50,4 +50,9 @@
     font-weight: bold;
     background-color: #F83718;
     text-decoration: none;
+    transition: .5s;
+}
+
+.redButton:hover {
+    background-color: darkred;
 }
