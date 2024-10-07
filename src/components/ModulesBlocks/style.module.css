@@ -56,3 +56,30 @@
 .redButton:hover {
     background-color: darkred;
 }
+
+/*media*/
+
+@media (max-width: 1024px) {
+    .photo {
+        display: none;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    .container:nth-child(odd) .content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .subtitle {
+        font-size: 12px;
+    }
+}
