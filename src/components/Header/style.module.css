@@ -33,3 +33,19 @@ header {
 .nav:hover {
     color: orangered;
 }
+
+/*media */
+
+
+@media (max-width: 1440px) {
+    header {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media (max-width: 830px) {
+    .navs {
+        display: none;
+    }
+}

@@ -28,3 +28,20 @@
     color: white;
     margin-top: 30px;
 }
+
+@media (max-width: 1024px) {
+    .rightContent {
+        display: none;
+    }
+
+    .main .container {
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .subtitle {
+        font-size: 10px;
+    }
+}

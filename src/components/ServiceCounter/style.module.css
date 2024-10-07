@@ -37,3 +37,32 @@
 .counter__subtitle {
     font-size: 26px;
 }
+
+/*media*/
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 600px) {
+    .subtitle {
+        font-size: 10px;
+    }
+
+    .counter__subtitle {
+        font-size: 12px;
+    }
+
+    .counters {
+        display: flex;
+        flex-direction: column
+    }
+
+    .counter ~ .counter {
+        margin-top: 15px;
+    }
+
+    .countNum {
+        font-size: 20px;
+    }
+}
