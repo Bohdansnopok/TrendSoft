@@ -12,13 +12,21 @@ const BurgerMenu = () => {
         <div className={styles.burgerMenu}>
             {/* Иконка бургер-меню */}
             <div className={`${styles.burgerIcon} ${isOpen ? styles.open : ''}`} onClick={toggleMenu}>
-                <span></span>
-                <span></span>
-                <span></span>
+                <span>
+
+                </span>
+                <span>
+
+                </span>
+                <span>
+
+                </span>
             </div>
 
             {/* Затемнение фона при открытии меню */}
-            {isOpen && <div className={styles.overlay} onClick={toggleMenu}></div>}
+            {isOpen && <div className={styles.overlay} onClick={toggleMenu}>
+
+            </div>}
 
             {/* Мобильное меню */}
             <nav className={`${styles.mobileNav} ${isOpen ? styles.open : ''}`}>
