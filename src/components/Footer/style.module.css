@@ -65,3 +65,33 @@
     font-size: 20px;
     color: #F83718;
 }
+
+/*media*/
+
+@media (max-width: 750px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .leftContent,
+    .rightContent {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .number {
+        font-size: 15px;
+    }
+
+    .adress {
+        font-size: 15px;
+    }
+
+    .email a {
+        font-size: 20px;
+    }
+}
