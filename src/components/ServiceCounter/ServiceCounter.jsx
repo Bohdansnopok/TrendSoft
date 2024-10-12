@@ -3,7 +3,7 @@ import styles from './style.module.css';
 import oneCounterIcon from '../../images/1-counterIcon.svg';
 import twoCounterIcon from '../../images/2-counterIcon.svg';
 import threeCounterIcon from '../../images/3-counterIcon.svg';
-import useCounter from '../../hooks/useCounter'; // Импортируем хук
+import useCounter from '../../helpers/hooks/useCounter'; // Импортируем хук
 
 const ServiceCounter = () => {
     // Используем хук для анимации счетчиков

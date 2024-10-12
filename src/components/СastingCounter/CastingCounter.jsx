@@ -1,5 +1,5 @@
 import React from 'react';
-import useCounter from '../../hooks/useCounter';
+import useCounter from '../../helpers/hooks/useCounter';
 import styles from "../СastingCounter/style.module.css";
 import CastingPhoto from  "../../images/castingPhoto.png"
 
