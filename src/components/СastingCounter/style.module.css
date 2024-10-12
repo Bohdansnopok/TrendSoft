@@ -17,6 +17,7 @@
 .subtitle {
     text-align: center;
     color: #1B1925;
+    font-size: 16px;
     margin-top: 30px;
 }
 
@@ -62,4 +63,36 @@
 
 .castingPhoto {
     margin-top: 65px;
+    width: calc(100% - 30px);
+}
+
+/*media*/
+
+@media (max-width: 600px) {
+    .subtitle {
+        font-size: 12px;
+    }
+
+    .counter__subtitle {
+        font-size: 15px;
+    }
+
+    .counters {
+        display: flex;
+        flex-direction: column
+    }
+
+    .counter ~ .counter {
+        margin-top: 15px;
+    }
+
+    .countNum {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .castingPhoto {
+        display: none;
+    }
 }

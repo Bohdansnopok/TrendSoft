@@ -54,3 +54,36 @@
     font-size: 25px;
     margin-top: 15px;
 }
+
+/*media*/
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .rightContent {
+        margin-top: 30px;
+        margin-left: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 425px) {
+    .item {
+        width: calc(100% - 50px / 4);
+    }
+
+    .item {
+        margin-top: 50px;
+    }
+
+    .item + .item ~ .item {
+        margin-top: 50px;
+    }
+
+    .item__title {
+        font-size: 20px;
+    }
+}

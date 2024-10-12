@@ -17,9 +17,9 @@ const Doctoolz = () => {
                 </h2>
 
                 <div className={styles.content}>
-                    <img src={FilmToolz} alt=""/>
+                    <img src={FilmToolz} alt="" className={styles.filmToolzPhoto}/>
 
-                    <div className="right">
+                    <div className={styles.right}>
                         <h3>
                             Крупнейшая в России <br/>
                             кастинг-база <br/>
@@ -39,44 +39,6 @@ const Doctoolz = () => {
                             <a href="#" className={styles.redButton}>
                                 Подробнее
                             </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div className={styles.decoration}>
-                <div className={styles.decContent}>
-                    <div className={styles.item}>
-                        <img src={Documents} alt=""/>
-                        <div className={styles.item__title}>Документы</div>
-                        <div className={styles.subtitle}>
-                            Настройка цепочек <br/>
-                            согласования договоров <br/>
-                            внутри компаний <br/>
-                        </div>
-                    </div>
-                    <div className={styles.item}>
-                        <img src={Vizirovanie} alt=""/>
-                        <div className={styles.item__title}>визирование</div>
-                        <div className={styles.subtitle}>
-                            Контроль процессов <br/>
-                            визирования <br/>
-                        </div>
-                    </div>
-                    <div className={styles.item}>
-                        <img src={Save} alt=""/>
-                        <div className={styles.item__title}> хранение</div>
-                        <div className={styles.subtitle}>
-                            Инструменты для <br/>
-                            хранения сканов <br/>
-                        </div>
-                    </div>
-                    <div className={styles.item}>
-                        <img src={Archive} alt=""/>
-                        <div className={styles.item__title}>онлайн-архив</div>
-                        <div className={styles.subtitle}>
-                            Организация онлайн- <br/>
-                            архива документов <br/>
                         </div>
                     </div>
                 </div>
