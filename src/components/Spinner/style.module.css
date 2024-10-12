@@ -1,0 +1,27 @@
+/* fullPageSpinner.module.css */
+.spinnerOverlay {
+    position: fixed; /* Залишається на всьому екрані */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center; /* Центрування спінера по горизонталі */
+    align-items: center; /* Центрування спінера по вертикалі */
+    z-index: 9999; /* Перекриває інший контент */
+}
+
+.spinner {
+    border: 8px solid rgba(0, 0, 0, 0.1); /* Світлий колір */
+    border-top: 8px solid #3498db; /* Темніший колір для верхньої частини */
+    border-radius: 50%; /* Кругла форма */
+    width: 60px; /* Ширина спінера */
+    height: 60px; /* Висота спінера */
+    animation: spin 1s linear infinite; /* Анімація обертання */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
