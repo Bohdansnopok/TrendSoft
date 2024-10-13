@@ -31,10 +31,10 @@ const BurgerMenu = () => {
             {/* Мобильное меню */}
             <nav className={`${styles.mobileNav} ${isOpen ? styles.open : ''}`}>
                 <ul>
-                    <li><a href="#home" onClick={toggleMenu}>Home</a></li>
-                    <li><a href="#about" onClick={toggleMenu}>About</a></li>
-                    <li><a href="#services" onClick={toggleMenu}>Services</a></li>
-                    <li><a href="#contact" onClick={toggleMenu}>Contact</a></li>
+                    <li><a href="#" onClick={toggleMenu}>Home</a></li>
+                    <li><a href="#" onClick={toggleMenu}>About</a></li>
+                    <li><a href="#" onClick={toggleMenu}>Services</a></li>
+                    <li><a href="#" onClick={toggleMenu}>Contact</a></li>
                 </ul>
             </nav>
         </div>

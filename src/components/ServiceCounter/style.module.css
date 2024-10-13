@@ -40,10 +40,6 @@
 
 /*media*/
 
-@media (max-width: 1024px) {
-
-}
-
 @media (max-width: 600px) {
     .subtitle {
         font-size: 10px;
@@ -64,5 +60,13 @@
 
     .countNum {
         font-size: 20px;
+    }
+
+    .container {
+        padding-top: 35px;
+    }
+
+    .counters {
+        margin-top: 20px;
     }
 }

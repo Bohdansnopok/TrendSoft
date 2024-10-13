@@ -82,4 +82,8 @@
     .subtitle {
         font-size: 12px;
     }
+
+    .container {
+        padding-top: 35px;
+    }
 }
