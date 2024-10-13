@@ -70,6 +70,12 @@
     }
 }
 
+@media (max-width: 600px) {
+    .container {
+        padding-top: 35px;
+    }
+}
+
 @media (max-width: 425px) {
     .item {
         width: calc(100% - 50px / 4);
