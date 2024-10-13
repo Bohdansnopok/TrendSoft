@@ -66,6 +66,13 @@
     color: #F83718;
 }
 
+.contactInformation {
+    color: #959595;
+    font-size: 20px;
+    padding: 60px 25px 10px 25px;
+    text-align: center;
+}
+
 /*media*/
 
 @media (max-width: 750px) {
@@ -93,5 +100,14 @@
 
     .email a {
         font-size: 20px;
+    }
+
+    .contactInformation {
+        font-size: 13px;
+        padding-top: 0;
+    }
+
+    .container {
+        padding-top: 35px;
     }
 }

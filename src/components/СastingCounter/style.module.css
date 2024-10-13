@@ -89,6 +89,14 @@
     .countNum {
         font-size: 30px;
     }
+
+    .counters {
+        margin-top: 20px;
+    }
+
+    .container {
+        padding-top: 35px;
+    }
 }
 
 @media (max-width: 425px) {

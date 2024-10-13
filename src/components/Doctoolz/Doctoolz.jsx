@@ -11,7 +11,7 @@ const Doctoolz = () => {
         <div className={styles.wrapper}>
             <div className={styles.container}>
                 <h2 className={styles.doctoolz__title}>
-                    Doctoolz.ru - облачное <br/>
+                    Doctoolz.ua - облачное <br/>
                     решение по организации <br/>
                     документооборота <br/>
                 </h2>
@@ -21,12 +21,12 @@ const Doctoolz = () => {
 
                     <div className={styles.right}>
                         <h3>
-                            Крупнейшая в России <br/>
+                            Крупнейшая в Украине <br/>
                             кастинг-база <br/>
                         </h3>
 
                         <div className={styles.subtitle}>
-                            Крупнейшая в России кастинг-база (20 000+ <br/>
+                            Крупнейшая в Украине кастинг-база (20 000+ <br/>
                             актеров) и модуль препродакшн позволяют <br/>
                             автоматизировать процессы подбора актеров <br/>
                             на роли, хранения и систематизации <br/>
